@@ -1,0 +1,33 @@
+[class*="span"] {
+ /*background-color: lightgreen;
+ margin-bottom: 10px;
+ border-radius: 5px 5px 5px 5px;
+ line-height: 80px;
+ text-align: inline;*/
+}
+
+[class*="jumbotron"] {
+height: 200px;
+background: url("../../../contents/images/fond.jpg");
+color: white;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+body
+{
+	font-family: Calibri,Verdana
+}
+
+p
+{
+	font-size:16px;
+	font-family: Calibri,Verdana;
+}
+h1
+{
+	font-size: 3em;
+	font-family: Calibri,Verdana;
+}
+
+
