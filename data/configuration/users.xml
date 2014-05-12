@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<user number="001" active="1" profil="0" delete="0">
+		<login><![CDATA[colasv]]></login>
+		<name><![CDATA[Nicolas Vignes]]></name>
+		<infos><![CDATA[]]></infos>
+		<password><![CDATA[c2ecd3697652911850c50aeb9bbb85a2c882b8c3]]></password>
+		<salt><![CDATA[4UrGitpbWu]]></salt>
+		<email><![CDATA[]]></email>
+		<lang><![CDATA[fr]]></lang>
+	</user>
+</document>
