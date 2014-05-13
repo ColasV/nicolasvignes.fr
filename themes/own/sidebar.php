@@ -1,6 +1,6 @@
 <?php if(!defined('PLX_ROOT')) exit; ?>
 
-	<aside role="complementary">
+	<!--<aside role="complementary">
 
 		<h3>
 			<?php $plxShow->lang('CATEGORIES'); ?>
@@ -49,4 +49,4 @@
 			<?php $plxShow->lang('COMMENTS'); ?></a>
 		</p>
 
-	</aside>
+	</aside>-->

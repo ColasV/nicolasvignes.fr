@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-	<statique number="001" active="1" menu="oui" url="statique-1" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Statique 1]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></statique>
+	<statique number="002" active="1" menu="oui" url="competences" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Compétences]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></statique>
+	<statique number="003" active="1" menu="oui" url="publications" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Publications]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></statique>
 </document>

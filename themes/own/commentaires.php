@@ -24,9 +24,9 @@
 
 		<?php endwhile; # Fin de la boucle sur les commentaires ?>
 
-		<div class="rss">
+		<!--<div class="rss">
 			<?php $plxShow->comFeed('rss',$plxShow->artId()); ?>
-		</div>
+		</div>-->
 
 	</div>
 
@@ -34,42 +34,42 @@
 
 	<?php if($plxShow->plxMotor->plxRecord_arts->f('allow_com') AND $plxShow->plxMotor->aConf['allow_com']): ?>
 
-	<div id="form">
+	<div id="form" >
 
 		<h2>
 			<?php $plxShow->lang('WRITE_A_COMMENT') ?>
 		</h2>
 
-		<form action="<?php $plxShow->artUrl(); ?>#form" method="post">
+		<form action="<?php $plxShow->artUrl(); ?>#form" method="post" role="form">
 			<fieldset>
-				<p>
+				<div class="form-group">
 					<label for="id_name"><?php $plxShow->lang('NAME') ?> :</label>
-					<input id="id_name" name="name" type="text" size="20" value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" />
-				</p>
-				<p>
+					<input id="id_name" class="form-control" name="name" type="text" size="20" value="<?php $plxShow->comGet('name',''); ?>" maxlength="30" />
+				</div>
+				<div class="form-group">
 					<label for="id_site"><?php $plxShow->lang('WEBSITE') ?> :</label>
-					<input id="id_site" name="site" type="text" size="20" value="<?php $plxShow->comGet('site',''); ?>" />
-				</p>
-				<p>
+					<input id="id_site" class="form-control" name="site" type="text" size="20" value="<?php $plxShow->comGet('site',''); ?>" />
+				</div>
+				<div class="form-group">
 					<label for="id_mail"><?php $plxShow->lang('EMAIL') ?> :</label>
-					<input id="id_mail" name="mail" type="text" size="20" value="<?php $plxShow->comGet('mail',''); ?>" />
-				</p>
-				<p>
+					<input id="id_mail" class="form-control" name="mail" type="text" size="20" value="<?php $plxShow->comGet('mail',''); ?>" />
+				</div>
+				<div class="form-group">
 					<label for="id_content" class="lab_com"><?php $plxShow->lang('COMMENT') ?> :</label>
-					<textarea id="id_content" name="content" cols="35" rows="6"><?php $plxShow->comGet('content',''); ?></textarea>
-				</p>
+					<textarea id="id_content" class="form-control" name="content" cols="35" rows="6"><?php $plxShow->comGet('content',''); ?></textarea>
+				</div>
 				<p class="com-alert">
 					<?php $plxShow->comMessage(); ?>
 				</p>
 				<?php if($plxShow->plxMotor->aConf['capcha']): ?>
-				<p>
+				<div class="form-group">
 					<label for="id_rep"><?php echo $plxShow->lang('ANTISPAM_WARNING') ?></label>
 					<?php $plxShow->capchaQ(); ?> :
-					<input id="id_rep" name="rep" type="text" size="2" maxlength="1" />
-				</p>
+					<input id="id_rep" class="form-control" name="rep" type="text" size="2" maxlength="1" />
+				</div>
 				<?php endif; ?>
 				<p>
-					<input type="submit" value="<?php $plxShow->lang('SEND') ?>" />
+					<button class="btn btn-default" type="submit"><?php $plxShow->lang('SEND') ?></button>
 				</p>
 			</fieldset>
 		</form>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <document>
-	<parametre name="title"><![CDATA[ColasV's Blog]]></parametre>
-	<parametre name="description"><![CDATA[Blog pour parler de tout]]></parametre>
+	<parametre name="title"><![CDATA[Nicolas Vignes]]></parametre>
+	<parametre name="description"><![CDATA[Site personnel]]></parametre>
 	<parametre name="meta_description"><![CDATA[]]></parametre>
 	<parametre name="meta_keywords"><![CDATA[informatic]]></parametre>
 	<parametre name="timezone"><![CDATA[Europe/Paris]]></parametre>
