@@ -12,7 +12,7 @@
 			<div class="row article">
 			
 			<div class="col-xs-2 text-center">
-				<img src="data/images/ensimag.gif" alt="article1" class="img-circle img-responsive">
+				<img src="data/images/img-<?php echo $plxShow->artId(); ?>.png" alt="article1" class="img-circle img-responsive">
 			</div>
 			<div class="col-xs-10">
 			<article role="article" id="post-<?php echo $plxShow->artId(); ?>">

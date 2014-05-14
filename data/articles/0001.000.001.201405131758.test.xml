@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<title><![CDATA[PTVS = Python + Visual Studio]]></title>
+	<allow_com>1</allow_com>
+	<template><![CDATA[article.php]]></template>
+	<chapo><![CDATA[<p>Ces derniers jours je travaille beaucoup avec <strong>Python</strong> en entreprise sur un environ <strong>Windows</strong>. Ne pouvant pas me servir de mes outils habituels de développeur, je me suis un peu renseigné sur les outils que l'on pouvait trouver sous Windows. A ma grande surprise, j'ai découvert que <strong>Visual Studio</strong> supportait parfaitement Python avec un petit plug-in nommé <a href="http://pytools.codeplex.com">PTVS</a>.</p>
+
+<div class="row text-center"><a href="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/vs2013.png"><img class="text-center" alt="Visual Studio 2013" src="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/vs2013-300x58.png" width="300" height="58" /></a></div>
+
+<p>Beaucoup me diront mais pourquoi utiliser Visual Studio, quelque d'aussi lourd (mais puissant) pour faire du Python. La réponse est simple, PTVS permet l'intégration complète de vos projets Python dans Visual Studio pour profiter de toutes les fonctionnalités de celui-ci, des tests unitaires au profiling en passant par le refactoring de code. Des outils très puissants et surtout très pratique !</p>]]></chapo>
+	<content><![CDATA[<h2>Et c'est gratuit</h2>
+<p>Beaucoup peuvent ne pas me croire mais la plupart des tout ça est gratuit ! Microsoft propose une version nommé "VS Shell" entièrement gratuite qui fonctionne avec PTVS, vous pouvez bien-sûr utiliser votre version de Visual Studio que vous possédez (VS 2010, 2012 ou 2013), il suffit d'installer PTVS pour profiter du support de Python, je vous conseille de regarder <a href="https://pytools.codeplex.com/wikipage?title=PTVS%20Installation">cette page</a>.</p>
+
+<p>Et ça marche, vous pouvez dès l'installation de PTVS faites, créer votre premier projet Python :</p>
+
+<div class="row text-center"><a href="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/pythonprojet.png"><img class="size-medium wp-image-616" alt="Créer votre premier projet Python sous Visual Studio" src="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/pythonprojet-300x207.png" width="300" height="207" /></a></div>
+<h2>Passons à la vitesse supérieur</h2>
+<p>Une fois l'installation faites et votre premier projet enfin créé, vous voulez sûrement utiliser quelques fonctionnalités de Visual Studio.</p>
+
+<p>Prenons un exemple simple, d'une intégration parfaitement réussite : les tests unitaires. Microsoft propose dans son IDE tout un ensemble d'outils pour faciliter le développement de test pour son application. De son côté Python propose tout une classe d'objets et de méthodes pour créer des tests unitaires simples. Je peux vous dire que les deux fonctionnent de pairs tout à fait parfaitement.</p>
+
+<div class="row text-center"><a href="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/vspython.png"><img class="size-medium wp-image-617" alt="vspython" src="http://blog.nicolasvignes.fr/wp-content/uploads/2013/07/vspython-300x180.png" width="300" height="180" /></a></div>
+
+<p>Cette article n'est qu'une rapide présentation des outils que proposent PTVS afin d'exploiter au mieux Python sur une machine Windows, je vous invite donc pour continuer à consulter le site <a href="https://pytools.codeplex.com">PTVS</a>, notamment la <a href="https://pytools.codeplex.com/documentation">documentation</a> qui vous permettra de profiter au mieux de toutes les fonctionnalités. J'essaierai de faire quelques articles plus détaillés dans les prochaines semaines. ;)</p>]]></content>
+	<tags><![CDATA[]]></tags>
+	<meta_description><![CDATA[]]></meta_description>
+	<meta_keywords><![CDATA[]]></meta_keywords>
+	<title_htmltag><![CDATA[]]></title_htmltag>
+</document>
