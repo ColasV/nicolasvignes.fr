@@ -34,12 +34,14 @@
 
 	<?php if($plxShow->plxMotor->plxRecord_arts->f('allow_com') AND $plxShow->plxMotor->aConf['allow_com']): ?>
 
+	<div class="separator"></div>
+
 	<div id="form" >
 
 		<h2>
 			<?php $plxShow->lang('WRITE_A_COMMENT') ?>
-		</h2>
-
+		</h2
+>
 		<form action="<?php $plxShow->artUrl(); ?>#form" method="post" role="form">
 			<fieldset>
 				<div class="form-group">

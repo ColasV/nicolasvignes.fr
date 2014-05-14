@@ -12,24 +12,23 @@
 					<h1>
 						<?php $plxShow->artTitle(''); ?>
 					</h1>
-					<p>
-						<?php $plxShow->lang('WRITTEN_BY') ?> <?php $plxShow->artAuthor(); ?> -
-						<time datetime="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></time> -
-						<?php $plxShow->artNbCom(); ?>
-					</p>
 				</header>
+
+				<section>
+					<p><time datetime="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>"><?php $plxShow->artDate('Publié le #num_day #month #num_year(4)'); ?></time> - <?php $plxShow->artAuthor(); ?></p>
+				</section>
 
 				<section>
 					<?php $plxShow->artContent(); ?>
 				</section>
 
-				<footer>
+				<!--<footer>
 					<p>
 						<?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?> -
 						<?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
 					</p>
 				</footer>
-
+				-->
 			</article>
 
 			<?php $plxShow->artAuthorInfos('<div class="author-infos">#art_authorinfos</div>'); ?>

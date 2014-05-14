@@ -14,3 +14,28 @@ color:#999
 }
 
 body { padding-top: 70px; }
+
+.separator {
+	margin:auto;
+	margin-top:15px;
+	margin-bottom: 15px;
+	border-top: 1px solid #eee;
+	width:200px;
+}
+
+article h1 {
+	margin-top:0px;
+	border-left: 5px solid orange;
+	padding-left: 10px;
+}
+
+article section{
+	border-top:2px solid #eee;
+	padding-top:10px;
+}
+
+.article {
+	margin-top:40px;
+}
+
+/**/
