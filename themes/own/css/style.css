@@ -38,4 +38,10 @@ article section{
 	margin-top:40px;
 }
 
+#form h2 {
+	margin-top:0px;
+	border-left: 5px solid #26d215;
+	padding-left: 10px;	
+}
+
 /**/

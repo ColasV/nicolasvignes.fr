@@ -17,12 +17,6 @@
 		<li><a href="http://boutique.siteduzero.com/boutique-614-1526-ebook-domptez-votre-mac-avec-mac-os-x-mountain-lion.html">Domptez votre Mac avec Mac OS X : Mountain Lion</a> (<a href="http://www.amazon.fr/Domptez-votre-avec-Mountain-ebook/dp/B00BG7JSKY/ref=sr_1_1?ie=UTF8&qid=1366668394&sr=8-1&keywords=domptez+votre+mac+avec+os+x">Amazon</a>, <a href="https://itunes.apple.com/fr/book/domptez-votre-mac-avec-mac/id603478071?mt=11">iTunes</a>)</li>
 	</ul>
 
-	<h3>Réseaux et télécommunications</h3>
-	<p>Voici une liste des articles que j'ai écris qui traitent de tout ce qui concerne les réseaux et les télécommunications.</p>
-	<ul>
-		<li><a href="./publications/difference_debit.pdf">Pourquoi le débit que me vend mon FAI n’est-il pas celui constaté ?</a></li>
-	</ul>
-
 	<h3>Wordpress</h3>
 	<p>Vous pourrez trouver mon premier thème pour Wordpress, qui utilise Bootstrap pour l'affichage</p>
 	<ul>

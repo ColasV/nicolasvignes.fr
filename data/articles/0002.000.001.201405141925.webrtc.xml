@@ -4,7 +4,7 @@
 	<allow_com>1</allow_com>
 	<template><![CDATA[article.php]]></template>
 	<chapo><![CDATA[]]></chapo>
-	<content><![CDATA[WebRTC]]></content>
+	<content><![CDATA[WebRTC (Web Real-Time Communication) est une API Javascript permettant des communications directs entre utilisateurs (via un navigateur web par exemple), sans avoir besoin de passer par un tiers (un serveur). Cette technologie encore au stade expérimentale est fortement soutenu par Google qui implémente cette API dans son navigateur Google Chrome.]]></content>
 	<tags><![CDATA[]]></tags>
 	<meta_description><![CDATA[]]></meta_description>
 	<meta_keywords><![CDATA[]]></meta_keywords>
